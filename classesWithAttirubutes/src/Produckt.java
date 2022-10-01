@@ -1,4 +1,17 @@
 public class Produckt {
+
+    public Produckt(int ıd,String name,String description,double price,int stockAmount,String renk){
+        System.out.println("Yapıcı blok calıştı");
+        this.ıd=ıd;
+        this.renk=renk;
+        this.name=name;
+        this.price=price;
+        this.description=description;
+        this.stockAmount=stockAmount;
+    }
+    public Produckt(){
+
+    }
    private int ıd;
     private String name;
     private String description;
